@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest</title>
+    <link rel="icon" href="static/pin-logo.png">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script defer src="JS/script.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="/">
+                <img src="static/pin-logo.png" alt="">
+                <h1>Pinterest</h1>
+            </a>
+        </div>
+        <div class="navbar">
+            <div class="navigation">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Blog</a></li>
+            </div>
+            <div class="getin">
+                <a href=""><button class="btn login">Log in</button></a>
+                <a href=""><button class="btn signup">Sign Up</button></a>
+            </div>
+        </div>
+    </nav>
+
+    <div id="top">
+        <div class="herohead">
+            <h2>Get your next</h2>
+            <h2 id="gyn">home decor idea</h2>
+        </div>
+        <div class="navdots">
+            <div class="dots"></div>
+            <div class="dots"></div>
+            <div class="dots"></div>
+            <div class="dots"></div>
+        </div>
+        <div class="photos">
+            <div class="col">
+                <img src="static/homedecor/1.jpg" alt="" class="pins">
+                <img src="static/homedecor/2.jpg" alt="" class="pins">
+            </div>
+            <img src="static/homedecor/3.jpg" alt="" class="pins col">
+            <img src="static/homedecor/4.jpg" alt="" class="pins col">
+            <img src="static/homedecor/5.jpg" alt="" class="pins col">
+            <img src="static/homedecor/6.jpg" alt="" class="pins col">
+            <img src="static/homedecor/7.jpg" alt="" class="pins col">
+            <div class="col">
+                <img src="static/homedecor/8.jpg" alt="" class="pins">
+                <img src="static/homedecor/9.jpg" alt="" class="pins">
+            </div>
+        </div>
+    </div>
+    <div id="down" onclick="document.getElementById('search').scrollIntoView();">
+        <span>Here's how it works</span>
+        <img src="static/down.webp" alt="">
+    </div>
+
+    <div id="search">
+        <div class="srch-visuals">
+            <div class="dirbtn">
+                <img src="static/search-icon.svg" alt="">
+                <span>easy chicken dinner</span>
+            </div>
+            <div class="srchimgs">
+                <img src="static/search/1.jpg" alt="">
+                <img src="static/search/2.jpg" alt="">
+                <img src="static/search/3.jpg" alt="">
+                <img src="static/search/4.jpg" alt="">
+            </div>
+        </div>
+        <div class="srch-context">
+            <h3 class="h3">Search for an idea</h3>
+            <p class="para">What do you want to try next? Think of something you're into—like “easy chicken dinner”—and see what you find.</p>
+            <a href=""><button class="cbtn">Explore</button></a>
+        </div>
+    </div>
+
+    <div id="save">
+        <div class="save-context">
+            <h3 class="h3">Save ideas you like</h3>
+            <p class="para">Collect your favorites so you can get back to them later.</p>
+            <a href=""><button class="cbtn">Explore</button></a>
+        </div>
+        <div class="save-visual">
+            <div id="svimg1">
+                <span>Fern future home vibes</span>
+                <div class="svimgc">
+                    <img src="static/save/1.jpg" alt="">
+                    <img src="static/save/2.jpg" alt="">
+                    <img src="static/save/3.jpg" alt="">
+                </div>
+            </div>
+            <div id="svimg2">My scandinavian bedroom</div>
+            <div id="svimg3">The deck of my dreams</div>
+            <div id="svimg4">Serve my drinks in style</div>
+        </div>
+    </div>
+
+    <div id="shop">
+        <div class="shop-visual">
+            <img src="static/shop/2.png" alt="">
+            <img src="static/shop/3.png" alt="">
+            <div>
+                <span>Scout the city</span>
+                <span>56.7k followers</span>
+            </div>
+        </div>
+        <div class="shop-context">
+            <h3 class="h3">See it, make it,</br>try it, do it</h3>
+            <p class="para">The best part of Pinterest is discovering new things and ideas from people around the world.</p>
+            <a href=""><button class="cbtn">Explore</button></a>
+        </div>
+    </div>
+
+    <div id="bottom">
+        <div class="bottom-context">
+            <div>Sign up to get your ideas</div>
+        </div>
+        <div class="bottom-right">
+            <div class="phone">
+                <div class="phone-top">
+                    <img src="static/pin-logo.png" alt="">
+                    <h4>Welcome to Pinterest</h4>
+                    <p>Find new ideas to try</p>
+                </div>
+                <form class="form">
+                    <span>Email</span>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email">
+                    <span>Password</span>
+                    <input type="password" name="password" id="password" placeholder="Create Your Password">
+                    <span>Age</span>
+                    <input type="number" name="age" id="age" placeholder="Your age">
+                    <button type="submit" class="continue">Continue</button>
+                    <span>OR</span>
+                    <button class="fbbtn">
+                        <img src="static/bottom/fb.png" alt="">
+                        <div>Continue with Facebook</div>
+                    </button>
+                    <button class="gglbtn">
+                        <img src="static/bottom/u.png" alt="">
+                        <div>
+                            <span>Continue as Aman</span>
+                            <div>
+                                <span>amanpathra22@gmail.com</span>
+                                <img src="static/down.webp" alt="">
+                            </div>
+                        </div>
+                        <img src="static/bottom/ggl.png" alt="">
+                    </button>
+                </form>
+                <div class="policy">
+                    By continuing, you agree to Pinterest;s <b>Terms of service</b> and acknowledge you've read our <b>Privacy Policy.</b><br><b> Notice at collection.</b>
+                </div>
+                <div class="loginlink">
+                   <a href="">Already a member? Log in</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <a href="#">Terms of Service</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Help</a>
+        <a href="#">iPhone App</a>
+        <a href="#">Android App</a>
+        <a href="#">Users</a>
+        <a href="#">Collection</a>
+        <a href="#">Today</a>
+        <a href="#">Explore</a>
+        <a href="#">Watch</a>
+    </footer>
+</body>
+</html>
